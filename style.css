@@ -3,6 +3,8 @@
 img{
    float: right;
    border-radius: 100px;
+   border: black;
+   border: 3px solid black;
    
    
 }
@@ -12,13 +14,13 @@ nav ul {
     list-style-type: style type r;
     padding: 5px;
     margin: 5px;
-    gap: 65px;
+    gap: 45px;
 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(8, 230, 56);
+    color: rgb(255, 71, 4);
 }
 *{
     background-color: antiquewhite;
