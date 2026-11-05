@@ -1,40 +1,125 @@
 body{
     background-color: antiquewhite;
 }
-
-
-img{
-justify-content: center;
-   border-radius: 100px;
-   border: black;
-   border: 3px solid rgb(30, 27, 27);
-   
-   
-}
-
-nav ul {
+.header{
+    background-color:burlywood;
+    border-radius: 100%;
     display: flex;
-    list-style-type: style type r;
-    padding: 5px;
-    margin: 5px;
-    gap: 45px;
-
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px30px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 71, 4);
-}
-
-.container {
+.container{
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 24px;
     border: 2px solid #333;      
-    border-radius: 12px;         
-    padding: 24px;  
-    max-width: 700px;
-    margin: 10rem 10rem;   
+    border-radius: 12px;          
     background: #fff;     
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
 }
+
+#home{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.about-text{
+    width: 50%;
+}
+.about-image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-image img{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+.navigator li a {
+    text-decoration: none;
+    color: rgb(116, 41, 14);
+}
+.navigator{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.abouts{
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 24px;
+    border: 2px solid #333;      
+    border-radius: 12px;          
+    background: #fff;     
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  
+}
+.skills {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border: 5px rgb(11, 1, 1);
+  border-radius: 15px;
+  background: rgba(88, 7, 36, 0.5);
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between; /* logo left, text right */
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.contact-link img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
 
 
 
